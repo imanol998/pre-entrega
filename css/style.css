@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Manuscrito";
+    src: url(../resources/font/A\ Note.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+header{
+    background-color: #363432;
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Borel', cursive;
+
+    width: 100%;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.titulo{
+    font-size: 45px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+.nav ul{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: orangered;
+}
+
+.main{
+    font-family: Manuscrito;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    
+}
+
+.main h2{
+    text-align: center;
+}
+
+.main img{
+    width: 1000px;
+    padding: 10px;
+}
+
+.pilares{
+    width: 150px;
+    height: 650px;
+    object-fit: contain;
+}
+
+.mundo{
+    width: 300px;
+    height: 600px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
