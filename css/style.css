@@ -81,22 +81,29 @@ footer{
 #carouselExample{
     min-width: 800px;
 }
-.cajita{
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    max-width: auto;
-    justify-content: center;
+.cajita {
+    padding: 30px;
+    position: absolute;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.contenido{
-    margin: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .cajita img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .contenido {
     color: white;
-    justify-content: flex-start;
-    max-width: 800px;
-    padding-right: 20px;
-}
+    padding: 0;
+    margin: 0;
+  }
+  .carousel_slide{
+      min-width: 50%;
+      max-width: 100%;
+      display: flex;
+  }
 .maine{
     background-color: rgb(39, 39, 39);
     color: white;
