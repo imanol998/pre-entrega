@@ -100,15 +100,23 @@ footer{
 }
 @media (min-width: 800px) and (max-width: 1325px){
     .grilla{
-            background-color: rgb(39, 39, 39);
-            display: flex;
-            flex-direction: column;
-            padding: 30px;
-        }
-        .nav{
-            font-size: 20px;
-        }
-
+        background-color: rgb(39, 39, 39);
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .nav{
+        font-size: 20px;
+    }
+    .carousel-item{
+        max-width: 450px;
+    }
+    .main{
+        max-width: 450px;
+    }
+    .contenido{
+        font-size: 20px;
+    }
 }
 @media (max-width: 800px){
     .nav{
@@ -120,6 +128,10 @@ footer{
         flex-direction: column;
         padding: 20px;
     }
+    .carousel-item{
+        max-width: 300px;
+    }
+    .carousel-inner{
+        max-width: 300px;
+    }
 }
-
-
